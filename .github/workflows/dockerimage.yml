@@ -37,8 +37,8 @@ jobs:
       - name: Build and Push Machine Learning
         uses: docker/build-push-action@v3.2.0
         with:
-          context: ./machine-learning
-          file: ./machine-learning/Dockerfile
+          context: .
+          file: ./containerfile
           platforms: linux/amd64
           push: true
           cache-from: type=gha
