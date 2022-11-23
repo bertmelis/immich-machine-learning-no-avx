@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v3.2.0
         with:
           context: .
-          file: ./containerfile
+          file: ./Containerfile
           platforms: linux/amd64
           push: true
           cache-from: type=gha
