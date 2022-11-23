@@ -44,7 +44,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           tags: |
-            bertmelis/immich-machine-learning-noavx:${{ steps.previoustag.outputs.tag }}
-            bertmelis/immich-machine-learning-noavx:release
+            bertmelis1/immich-machine-learning-noavx:${{ steps.previoustag.outputs.tag }}
+            bertmelis1/immich-machine-learning-noavx:release
             ghcr.io/${{ github.repository_owner }}/immich-machine-learning-noavx:${{ steps.previoustag.outputs.tag }}
             ghcr.io/${{ github.repository_owner }}/immich-machine-learning-noavx:release
