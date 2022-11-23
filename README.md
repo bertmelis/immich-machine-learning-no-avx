@@ -13,7 +13,7 @@ by
 ## What is this?
 
 Immich is a high performance self-hosted photo and video backup solution.
-For image classification, Immich relies on Tensorflow. Tensorflow is by standard built for 'newer' processors that support AVX. People that run Immich on older systems have to option to just not run the immage classification container or use this alternative.
+For image classification, Immich relies on Tensorflow. Tensorflow is by standard built for 'newer' processors that support AVX. People that run Immich on older systems have the option to just not run the immage classification container, build Tensorflow themselves (using the files in this repo?) or use this alternative.
 
 ## Links
 
