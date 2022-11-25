@@ -17,12 +17,12 @@ For image classification, Immich relies on Tensorflow. Tensorflow is by standard
 
 ## Links
 
-https://immich.app/
-https://github.com/immich-app/immich
+- https://immich.app/
+- https://github.com/immich-app/immich
 
 ## Last words
 
 - As is Immich, this repo is published under the MIT license.
 - The generated image is by far not optimized and is probably much larger than the original immich-machine-learning image. Feel free to create PRs to improve.
 - I follow the Immich release schedule but do this manually. Some delay is to be expected, especially when new Tensorflow binaries are needed.
-- Tensorflow is build using the latest release and is build for a "generic x86-64" cpu. This means there is no optimization for AVX nor for SSE or other instruction sets.
+- Tensorflow is built using the latest release and is build for a "generic x86-64" cpu. This means there is no optimization for AVX nor for SSE or other instruction sets.
