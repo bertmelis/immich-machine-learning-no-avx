@@ -1,3 +1,10 @@
+# Time to retire
+
+Immich has moved from Tensorflow to PyTorch from Immich version 1.49.0.
+This repo is not needed anymore and has been archived.
+
+The container images have been deleted.
+
 # Immich machine learning for x86 without AVX
 
 ## Usage
